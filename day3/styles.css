@@ -1,0 +1,22 @@
+div.child{
+    width:200px;
+    height:200px;
+    background-color: blue;
+    color:aqua;
+    border: 3px solid wheat;
+    font-size: large;
+    font-weight: 200;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border:1px solid black;
+    height: 600px;
+    align-items: start;
+    flex-wrap:wrap;
+    align-content: center;
+    gap: 20px;
+
+}
